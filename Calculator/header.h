@@ -1,4 +1,5 @@
-ifndef main.h
+#ifndef HEADER_H_INCLUDED
+#define HEADER_H_INCLUDED
 
 int addition(void);
 int subtraction(void);
@@ -10,4 +11,4 @@ int choice(int selection);
 void operations(void);
 void again(void);
 
-endif
+#endif
