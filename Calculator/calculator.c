@@ -10,7 +10,7 @@ int main(void)
 	int selection;
 
 	printf ("This is my first calculator program\nPlease enter your name: ");
-	scanf ("%[^\n]%*c", &name);
+	fgets(name, 50, stdin);
 	printf ("\nWelcome to the calculator %s\nWhat operation would you like to perform: ", name);
 	operations();
 	printf ("\nPlease Enter your Selection: ");
