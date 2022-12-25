@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include "header.h"
+
 int triangle(void)
 {
    int i, space, rows, k = 0;
