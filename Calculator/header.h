@@ -1,6 +1,7 @@
 #ifndef HEADER_H_INCLUDED
 #define HEADER_H_INCLUDED
 
+int calculator(void);
 int addition(void);
 int subtraction(void);
 int division(void);
