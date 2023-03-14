@@ -7,7 +7,7 @@ int personal_info()
 {
     char name[50];
     printf("TEMPERATURE CONVERTER\n");
-    printf("Please Enter Your Name: "),scanf("%s", &name);
+    printf("Please Enter Your Name: "),fgets(name, 50, stdin);
     printf("Welcome %s\n", name);
 }
 
